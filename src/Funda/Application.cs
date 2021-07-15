@@ -19,11 +19,11 @@ namespace Funda
 
         public async Task Run()
         {
-            // // Fetch All houses in Amsterdam
-            // await FetchAndStoreHouses();
+            // Fetch All houses in Amsterdam
+            await FetchAndStoreHouses();
 
-            // // Fetch All houses with in Amsterdam
-            // await FetchAndStoreHouses(true);
+            // Fetch All houses with in Amsterdam
+            await FetchAndStoreHouses(true);
 
             // Populate the makelaar in Amsterdam that has the most object listed for sale.
             var topMakelaar = _houseService.GetMaakelaarWithHighestNumberOfListing();

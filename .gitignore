@@ -1,0 +1,6 @@
+src/Funda/bin/
+src/Funda/obj/
+src/Funda/.vscode/
+test/Funda.Test/bin/
+test/Funda.Test/obj/
+test/Funda.Test/.vscode/
